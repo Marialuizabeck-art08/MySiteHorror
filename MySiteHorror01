@@ -1,67 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título da Página</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hollow Echoes | Creepypastas e Blogs de Terror</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
-    <header>
-        <h1>MySiteHorror.com</h1>
-        <nav>
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-        </nav>
-    </header>
+  <div class="ambient"></div>
 
-    <main>
-        <section>
-            <h2>Seja Bem-recebido(a)!</h2>
-            <p>Este é o conteúdo principal do site.</p>
-        </section>
-    </main>
+  <header class="topbar">
+    <div class="container">
+      <a class="brand" href="#">Hollow Echoes</a>
+      <nav>
+        <a href="#stories">Histórias</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-    <footer>
-        <p>© 2026 MySiteHorror.com. Todos os direitos reservados.</p>
-    </footer>
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">Creepypastas • Blogs • Terror</p>
+      <h1>Onde as histórias mais sombrias ganham voz.</h1>
+      <p>Um espaço para narrativas inquietantes, mistérios urbanos e relatos que parecem chegar de dentro do escuro.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#stories">Ler histórias</a>
+        <button class="btn secondary" id="toggleTheme">Ativar clima</button>
+      </div>
+    </section>
 
+    <section id="stories">
+      <div class="section-title">
+        <h2>Histórias recentes</h2>
+        <span>Novos posts toda semana</span>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>A Voz no Canal</h3>
+          <p>Uma gravação antiga revela uma presença que não deveria estar na linha de transmissão.</p>
+          <a href="post.html">Ler mais →</a>
+        </article>
+        <article class="card">
+          <h3>O Quarto 13</h3>
+          <p>Quem entra no quarto 13 nunca sai sem lembrar de uma presença que o espera.</p>
+          <a href="post.html">Ler mais →</a>
+        </article>
+        <article class="card">
+          <h3>O Menino de Vidro</h3>
+          <p>Um objeto quebrado e um sorriso sem olhos transformam uma casa em lugar de pesadelo.</p>
+          <a href="post.html">Ler mais →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div>
+        <h2>Sobre o projeto</h2>
+        <p>Este site foi criado para reunir creepypastas, artigos e ideias de terror em um ambiente visual escuro, elegante e imersivo. A proposta é oferecer uma experiência de leitura envolvente, como se cada página fosse um novo encontro com o desconhecido.</p>
+      </div>
+      <aside class="panel" id="contact">
+        <h3>O que você encontra aqui</h3>
+        <ul>
+          <li>Histórias curtas e envolventes</li>
+          <li>Posts de blog com clima sombrio</li>
+          <li>Estilo visual pensado para terror</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="panel">
+      <h3>Contato</h3>
+      <form>
+        <input type="text" placeholder="Seu nome" />
+        <input type="email" placeholder="Seu email" />
+        <textarea rows="4" placeholder="Escreva sua mensagem"></textarea>
+        <button class="btn primary" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Hollow Echoes. Feito para quem gosta de narrativas de terror.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggleTheme = document.getElementById('toggleTheme');
+    toggleTheme?.addEventListener('click', () => {
+      document.body.classList.toggle('night');
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('Site carregado com sucesso.');
+    });
+  </script>
 </body>
 </html>
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        text-align: center;
-        margin-top: 50px;
-    }
-    h1 {
-        color: #2c2a2a;
-    }
-    p {
-        color: #666;
-    }
-    a {
-        color: #5b1919;
-        text-decoration: none;
-    }
-</style>
-
-// 1. Mensagem de boas-vindas ao carregar a página
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("O site foi carregado!!");
-    alert("Bem-vindo(a) à minha primeira página web!!<33");
-});
-
-// 2. Interatividade com um botão
-// Supondo que você tenha <button id="meuBotao">Clique Aqui</button> no HTML
-const botao = document.getElementById("meuBotao");
-
-if (botao) {
-    botao.addEventListener("click", () => {
-        alert("Você clicou no botão!!");
-        document.body.style.backgroundColor = "#f0f4f8"; // Altera a cor de fundo
-    });
-}
