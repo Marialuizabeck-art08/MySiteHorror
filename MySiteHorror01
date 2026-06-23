@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+</head>
+<body>
+    
+    <header>
+        <h1>MySiteHorror.com</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Seja Bem-recebido(a)!</h2>
+            <p>Este é o conteúdo principal do site.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 MySiteHorror.com. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        margin-top: 50px;
+    }
+    h1 {
+        color: #2c2a2a;
+    }
+    p {
+        color: #666;
+    }
+    a {
+        color: #5b1919;
+        text-decoration: none;
+    }
+</style>
+
+// 1. Mensagem de boas-vindas ao carregar a página
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("O site foi carregado!!");
+    alert("Bem-vindo(a) à minha primeira página web!!<33");
+});
+
+// 2. Interatividade com um botão
+// Supondo que você tenha <button id="meuBotao">Clique Aqui</button> no HTML
+const botao = document.getElementById("meuBotao");
+
+if (botao) {
+    botao.addEventListener("click", () => {
+        alert("Você clicou no botão!!");
+        document.body.style.backgroundColor = "#f0f4f8"; // Altera a cor de fundo
+    });
+}
