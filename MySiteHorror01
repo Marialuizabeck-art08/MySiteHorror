@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hollow Echoes | Creepypastas e Blogs de Terror</title>
+  <title> Distorted echoes| Creepypastas e Blogs de Terror𓂃 ࣪˖ ִֶཐི༏ཋྀ󠀮</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -11,7 +11,7 @@
 
   <header class="topbar">
     <div class="container">
-      <a class="brand" href="#">Hollow Echoes</a>
+      <a class="brand" href="index.html">Distorted Echoes</a>
       <nav>
         <a href="#stories">Histórias</a>
         <a href="#about">Sobre</a>
@@ -23,33 +23,33 @@
   <main class="container">
     <section class="hero">
       <p class="eyebrow">Creepypastas • Blogs • Terror</p>
-      <h1>Onde as histórias mais sombrias ganham voz.</h1>
-      <p>Um espaço para narrativas inquietantes, mistérios urbanos e relatos que parecem chegar de dentro do escuro.</p>
+      <h1>Onde os mistérios sussurram no escuro.</h1>
+      <p>Um arquivo dedicado a investigações perturbadoras, mistérios noturnos e narrativas horrendas.</p>
       <div class="hero-actions">
-        <a class="btn primary" href="#stories">Ler histórias</a>
+        <a class="btn primary" href="#stories">Ler páginas</a>
         <button class="btn secondary" id="toggleTheme">Ativar clima</button>
       </div>
     </section>
 
     <section id="stories">
       <div class="section-title">
-        <h2>Histórias recentes</h2>
-        <span>Novos posts toda semana</span>
+        <h2>Narrativas recentes</h2>
+        <span>Novas páginas todas as semanas</span>
       </div>
       <div class="grid">
         <article class="card">
-          <h3>A Voz no Canal</h3>
-          <p>Uma gravação antiga revela uma presença que não deveria estar na linha de transmissão.</p>
+          <h3>A Voz estranha na gravação</h3>
+          <p>Uma gravação antiga em uma fita revela um acontecimento perturbador transmitido na floresta perto da pequena cidade.</p>
           <a href="post.html">Ler mais →</a>
         </article>
         <article class="card">
-          <h3>O Quarto 13</h3>
-          <p>Quem entra no quarto 13 nunca sai sem lembrar de uma presença que o espera.</p>
+          <h3>A velha casa abandonada</h3>
+          <p>Qualquer um que ousasse entrar naquele lugar nunca mais sairia sem se lembrar daquela horrível figura que os observava no escuro.</p>
           <a href="post.html">Ler mais →</a>
         </article>
         <article class="card">
-          <h3>O Menino de Vidro</h3>
-          <p>Um objeto quebrado e um sorriso sem olhos transformam uma casa em lugar de pesadelo.</p>
+          <h3>O Vidro distorcido</h3>
+          <p>Um objeto quebrado no chão que reflete algo que não deveria existir, algo que não deveria tomar conta de sua mente e corpo.</p>
           <a href="post.html">Ler mais →</a>
         </article>
       </div>
@@ -63,8 +63,8 @@
       <aside class="panel" id="contact">
         <h3>O que você encontra aqui</h3>
         <ul>
-          <li>Histórias curtas e envolventes</li>
-          <li>Posts de blog com clima sombrio</li>
+          <li>Narrativas curtas e envolventes</li>
+          <li>Páginas de blog com clima sombrio</li>
           <li>Estilo visual pensado para terror</li>
         </ul>
       </aside>
@@ -73,7 +73,7 @@
     <section class="panel">
       <h3>Contato</h3>
       <form>
-        <input type="text" placeholder="Seu nome" />
+        <input type="text" placeholder="Seu nome!!" />
         <input type="email" placeholder="Seu email" />
         <textarea rows="4" placeholder="Escreva sua mensagem"></textarea>
         <button class="btn primary" type="submit">Enviar</button>
@@ -83,7 +83,7 @@
 
   <footer>
     <div class="container">
-      <p>© 2026 Hollow Echoes. Feito para quem gosta de narrativas de terror.</p>
+      <p>© 2026 Distorted Echoes. Feito para quem gosta de narrativas horrendas.</p>
     </div>
   </footer>
 
@@ -94,7 +94,7 @@
     });
 
     document.addEventListener('DOMContentLoaded', () => {
-      console.log('Site carregado com sucesso.');
+      console.log('Site carregado com sucesso!!');
     });
   </script>
 </body>
